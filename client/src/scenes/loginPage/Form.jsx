@@ -251,8 +251,8 @@ const Form = () => {
                     m: "2rem 0",
                     p: "1rem",
                     backgroundColor: palette.primary.main,
-                    color: palette.background.alt,
-                    "&:hover": { color: palette.primary.main },
+                    color: "white",
+                    "&:hover": { color: palette.primary.main, border: "1px solid"},
                   }}
                 >
                   {isLogin ? "LOGIN": "REGISTER"}
