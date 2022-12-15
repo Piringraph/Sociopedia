@@ -252,7 +252,7 @@ const Form = () => {
                     p: "1rem",
                     backgroundColor: palette.primary.main,
                     color: "white",
-                    "&:hover": { color: palette.primary.main, border: "1px solid"},
+                    "&:hover": { color: palette.primary.main, border: "0.4px solid"},
                   }}
                 >
                   {isLogin ? "LOGIN": "REGISTER"}
